@@ -42,6 +42,9 @@ Rebase From the Ground Up
   Cherry-Picking Explained
   Using 'git cherry-pick' to Simulate 'git rebase'
   A Helpful Mnemonic for 'git rebase' Arguments
+  Interactive Rebase
+  The Case for Rebase
+  The Case Against Rebase
 
 # Testing Out Rebases
 
