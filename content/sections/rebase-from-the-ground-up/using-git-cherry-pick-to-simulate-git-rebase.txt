@@ -9,6 +9,21 @@ filter:
 
 Once you have <code class="inline">git cherry-pick</code> down, you can start off by thinking of <code class="inline">git rebase</code> as being a faster way to cherry-pick all of the commits in a given branch at once, rather than having to type out their IDs separately.
 
+<% if false
+#######################################
+
+########  ########  ##     ##  #######
+   ##     ##        ###   ###  ##    ##
+   ##     ##        #### ####  ##    ##
+   ##     ######    ## ### ##  #######
+   ##     ##        ##  #  ##  ##
+   ##     ##        ##     ##  ##
+   ##     ########  ##     ##  ##
+
+#######################################
+# remove or edit this note
+#######################################
+end %>
 *(That's only the very beginning of what rebase can do, but I'll write the rest of this section another time.)*
 
 Let's go back to our trusty example, but this time add some branches...

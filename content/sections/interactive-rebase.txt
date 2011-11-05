@@ -1,8 +1,20 @@
 ---
 title:      Interactive Rebase
 created_at: 2011-11-03 17:42:42.369258 -07:00
+layout:     section
 filter:
   - erb
   - markdown
 ---
 
+We've seen how <code class="inline">git rebase</code> can be thought of as a series of <code class="inline">git cherry-pick</code> operations.  Rebase is actually much more powerful than this.  If you add the <code class="inline">--interactive</code> flag to your <code class="inline">git rebase</code> command, Git will let you:
+
+<ul class="full-size">
+  <li>Edit commit messages</li>
+  <li>Change the order of your commits</li>
+  <li>Combine two or more commits into one (this is like <code class="inline">git commit --amend</code>, but it works on more than just the very last commit), optionally discarding some of the subsequent commits' messages</li>
+  <li>Change the contents of a commit</li>
+  <li>Remove entire commits from your history</li>
+</ul>
+
+In looking at the options again, I see that you can actually run an arbitrary shell command at certain steps along the way.  I'm not sure what you would use this for, but I'm sure you can think of 
